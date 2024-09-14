@@ -425,6 +425,9 @@
   "/apkpure/versions/:pkg/:region?": [
     "maple3142"
   ],
+  "/apnews/api/:tags?": [
+    "dzx-dzx"
+  ],
   "/apnews/rss/:category?": [
     "zoenglinghou",
     "mjysci",
@@ -647,6 +650,9 @@
   "/bilibili/bangumi/media/:mediaid": [
     "DIYgod"
   ],
+  "/bilibili/precious/:disableEmbed?": [
+    "liuyuhe666"
+  ],
   "/bilibili/user/coin/:uid/:disableEmbed?": [
     "DIYgod"
   ],
@@ -798,6 +804,9 @@
   ],
   "/bitbucket/tags/:workspace/:repo_slug": [
     "AuroraDysis"
+  ],
+  "/bitget/announcement/:type/:lang?": [
+    "YukiCoco"
   ],
   "/bitmovin/blog": [
     "elxy"
@@ -1621,6 +1630,10 @@
     "TonyRL"
   ],
   "/discourse/:configId/notifications/:fulltext?": [],
+  "/discourse/:configId/official/:path{.+}": [
+    "Raikyou",
+    "dzx-dzx"
+  ],
   "/discourse/:configId/posts": [
     "dzx-dzx"
   ],
@@ -1880,6 +1893,9 @@
   "/eastmoney/ttjj/user/:uid": [
     "zidekuls"
   ],
+  "/easynomad/": [
+    "jiangsong216"
+  ],
   "/ecnu/acm/contest/:category?": [
     "a180285"
   ],
@@ -2085,6 +2101,10 @@
   "/focustaiwan/:category?": [
     "nczitzk"
   ],
+  "/follow/profile/:uid": [
+    "KarasuShin",
+    "DIYgod"
+  ],
   "/followin/:categoryId?/:lang?": [
     "TonyRL"
   ],
@@ -2231,6 +2251,9 @@
   "/gdsrx/:id?": [],
   "/gdut/oa_news/:type?": [
     "jim-kirisame"
+  ],
+  "/geekpark/:column?": [
+    "nczitzk"
   ],
   "/gelonghui/home/:tag?": [
     "TonyRL"
@@ -3539,6 +3562,9 @@
   ],
   "/kadokawa/blog": [
     "nczitzk"
+  ],
+  "/kakuyomu/works/:id": [
+    "KarasuShin"
   ],
   "/kamen-rider-official/news/:category?": [
     "nczitzk"
@@ -5194,7 +5220,7 @@
   "/sakurazaka46/news": [
     "nczitzk"
   ],
-  "/samdnews/:typeId": [
+  "/samd/news/:typeId": [
     "hualiong"
   ],
   "/samsung/research/blog": [
