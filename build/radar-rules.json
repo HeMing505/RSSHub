@@ -1679,7 +1679,7 @@
         "source": [
           "/"
         ],
-        "target": "/asus/bios/:model"
+        "target": "/asus/bios/:model/:lang?"
       }
     ]
   },
@@ -4149,6 +4149,16 @@
         ],
         "target": "/cls/telegraph"
       }
+    ],
+    "www": [
+      {
+        "title": "话题",
+        "docs": "https://docs.rsshub.app/routes/finance",
+        "source": [
+          "/subject/:id"
+        ],
+        "target": "/clsparams=>{const id=params.id;return`/subject${id?`/${id}`:\"\"}`}"
+      }
     ]
   },
   "cmpxchg8b.com": {
@@ -6042,6 +6052,19 @@
           "/:locale/free-games"
         ],
         "target": "/epicgames/freegames/:locale"
+      }
+    ]
+  },
+  "espn.com": {
+    "_name": "ESPN",
+    ".": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/:sport*"
+        ],
+        "target": "/espn/news/:sport"
       }
     ]
   },
@@ -24774,6 +24797,27 @@
           "/"
         ],
         "target": "/yicai/vip/:id"
+      }
+    ]
+  },
+  "yilinzazhi.com": {
+    "_name": "意林杂志",
+    "www": [
+      {
+        "title": "文章列表",
+        "docs": "https://docs.rsshub.app/routes/reading",
+        "source": [
+          "/"
+        ],
+        "target": "/yilinzazhi/"
+      },
+      {
+        "title": "近期文章汇总",
+        "docs": "https://docs.rsshub.app/routes/reading",
+        "source": [
+          "/"
+        ],
+        "target": "/yilinzazhi/"
       }
     ]
   },
